@@ -1,7 +1,8 @@
 ## Steps
 
-1. Build ``` docker-compose build ```
-2. Run ``` docker-compose up -d ```
+1. Composer ``` composer install ```
+2. Build ``` docker-compose build ```
+3. Run ``` docker-compose up -d ```
 
 ## 啟動 letsencrypt
 
