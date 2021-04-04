@@ -1,0 +1,16 @@
+{
+    "name": "rc1021/docker-nginx-php-scaffold",
+    "description": "",
+    "authors": [
+        {
+            "name": "rc1021",
+            "email": "rc.701021@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "post-update-cmd": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}
